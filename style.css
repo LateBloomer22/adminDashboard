@@ -26,11 +26,34 @@ body {
 }
 
 .container-left {
-    background-color: #4292c6;
+    background-color: rgb(49, 128, 201);
     color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 25px;
 }
 
-.icon {
-    fill: white;
-    stroke: white;
+.dashboard {
+    display: flex;
+    gap: 5px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.dashboard .icon {
+    width: 3rem;
+}
+
+.navigation, .account {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: flex-start;
+}
+
+.container .option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
