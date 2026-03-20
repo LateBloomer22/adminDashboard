@@ -35,7 +35,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding: 25px;
+    padding: 35px;
 }
 
 .dashboard {
